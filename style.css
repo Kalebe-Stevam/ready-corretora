@@ -17,7 +17,6 @@ html {
     justify-content: center;
     align-content: start;
     max-width: 100%;
-    height: 100vh;
     background: linear-gradient(102.93deg, #0B1E51 18.3%, #0B1E51 51.8%, #00040F 100%);
     flex-flow: row wrap;
 }
@@ -79,6 +78,7 @@ html {
     flex-flow: row wrap;
     gap: 2%;
     margin-top: 5%;
+    padding-bottom: 200px;
 }
 
 .btn-infos button {
