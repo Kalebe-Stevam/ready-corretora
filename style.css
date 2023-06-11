@@ -348,7 +348,7 @@ form p {
     }
 
     .btn-infos button {
-        padding: 7px 17px;
+        padding: 8px 30px;
     }
 
 
@@ -356,57 +356,85 @@ form p {
 
 @media (max-width: 640px) {
     html {
-        font-size: 25.5%;
+        font-size: 39%;
+    }
+    .text {
+        text-align: left;
+        max-width: 100%;
+    }
+
+    .logo {
+        width: 80%;
+    }
+    .text p {
+        width: 100%;
+        margin: 0px;
+        font-size: 2.6rem;
+        font-weight: 100;
+        margin-top: 4%;
+    }
+
+    .text h1 {
+        margin: 0px;
+        font-size: 3.5rem;
+        font-weight: 400;
     }
 
     .btn-infos {
-        padding-bottom: 130px;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 25px;
     }
 
-    .btn-infos button {
-        padding: 7px 17px;
+    .textos {
+        width: 90%;
+        margin: auto;
     }
 
-    .input-box input {
-        height: 15px;
+    .img-house {
+        width: 50%;
     }
-    
+
+    .container {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .about {
+        margin-top: 13%;
+    }
+
+    .business {
+        order: 1;
+        width: 90%;
+    }
+
+    .txt-business {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .about-txt {
+        width: 90%;
+        order: 0;
+    }
+
+    .img-check {
+        display: none;
+    }
+
+    .get-infos {
+        width: 100%;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .get-infos {
+        width: 90%;
+    }
+
+    .input-box {
+        width: 90%;
+    }
 }
 
-@media (max-width: 550px) {
-    html {
-        font-size: 14%;
-    }
-
-    .btn-infos {
-        padding-bottom: 90px;
-    }
-
-    .btn-infos button {
-        padding: 7px 17px;
-    }
-
-    .input-box input {
-        height: 10px;
-    }
-    
-}
-
-@media (max-width: 340px) {
-    html {
-        font-size: 12%;
-    }
-
-    .btn-infos {
-        padding-bottom: 90px;
-    }
-
-    .btn-infos button {
-        padding: 7px 17px;
-    }
-
-    .input-box input {
-        height: 10px;
-    }
-    
-}
